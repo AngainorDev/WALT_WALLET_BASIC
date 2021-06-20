@@ -1,0 +1,6 @@
+#freeze("$(PORT_DIR)/modules")
+include("$(MPY_DIR)/extmod/uasyncio/manifest.py")
+#freeze("$(MPY_LIB_DIR)/urequests", "urequests.py")
+# include("$(MPY_DIR)/extmod/webrepl/manifest.py")
+freeze("$(PORT_DIR)/boards/WALT_BASIC/modules")
+#freeze("modules")

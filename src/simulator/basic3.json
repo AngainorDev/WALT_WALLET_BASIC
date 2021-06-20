@@ -1,0 +1,22 @@
+{
+  "name": "Walt Basic",
+  "description": "Walt Basic with buttons on the left",
+  "orientation": 3,
+  "width": 240,
+  "height": 135,
+  "skin": {
+    "fname": "res/left_skin.png",
+    "size": [
+      437,
+      222
+    ],
+    "offset": [
+      143,
+      40
+    ]
+  },
+  "buttons": {
+    "UP": [[35, 27], [82, 64]],
+    "DOWN": [[35, 156], [82, 192]]
+  }
+}
